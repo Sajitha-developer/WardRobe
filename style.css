@@ -81,8 +81,9 @@ body{
     .conatainer__s2 img{
         margin-top: 50px;
         position: relative;
-        left: 10px;
-        width: 450px;
+        right: 50px;
+        width: 100%;
+        height: 30vh;
 
     }
     .services__s1 {
@@ -100,7 +101,24 @@ body{
         display: flex;
         left: 50px;
     }
-    
+    .Featured{
+        margin: 7%;
+    }
+    .Featured__title{
+        font-size: 10px;
+    }
+    .Featured-item h3 {
+        font-size: 20px;
+    }
+    .Featured-item p{
+        font-size: 16px;
+    }
+    .Featured__button{
+        font-size: 12px;
+    }
+   .Footer p{
+     font-size: 14px;
+   }
 }
 .navbar__item a:hover {
     border: 2px solid  #1D232c;
@@ -174,7 +192,7 @@ body{
 }
 .conatainer__title {
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
-    font-size: 34px;
+    font-size: 32px;
     padding-left: 5px;
 
 
@@ -222,8 +240,8 @@ body{
 }
 
 .conatainer__s2 img{
-    height: 100%;
-    width: 60%;
+    /* height: 100%; */
+    width: 70%;
     border-radius: 5px;
     padding-left:10%;
 }
@@ -236,6 +254,7 @@ body{
 }
 .services__s1{
     display: flex;
+    font-size: 18px;
 }
 .services__description{
     position: absolute;
@@ -247,7 +266,7 @@ body{
     gap: 20px;
     justify-content: space-between;
     align-items: center;
-
+font-size: 17px;
     padding: 60px 10px;
 
 }
@@ -260,7 +279,7 @@ body{
 .newarrival {
     padding: 40px 10px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    font-size: 34px;
+    font-size: 30px;
 }
 .newarrival__container {
     display: flex;
@@ -324,7 +343,7 @@ body{
     text-align: center;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     padding: 20px;
-    font-size: 34px;
+    font-size: 30px;
 
 
 }
@@ -346,6 +365,7 @@ body{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 }
+
 .Featured-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
@@ -411,12 +431,13 @@ body{
 }
 .product__search {
     width:80%;
+    
     border: solid black 2px;
-    border-radius: 20px;
+    border-radius: 40px;
     display: flex;
      justify-content:space-between;
     align-items: center;
-    padding: 15px;
+    padding: 7px;
 }
 .search_input {
     border: none;
